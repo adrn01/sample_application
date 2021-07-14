@@ -4,12 +4,8 @@
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "turbolinks": "^5.2.0",
-    "webpack": "^5.44.0",
-    "webpack-cli": "^4.7.2"
+    "@rails/webpacker": "^5.4.0",
+    "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
-  "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
-  }
+  "version": "0.1.0"
 }
