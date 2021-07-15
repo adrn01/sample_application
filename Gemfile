@@ -9,6 +9,9 @@ gem 'faraday'
 # LogRage for formatting logs for datadog agent
 gem 'lograge'
 
+# Datadog trace gem for profiling
+gem 'ddtrace', require: 'ddtrace/auto_instrument'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
 # Use Puma as the app server
