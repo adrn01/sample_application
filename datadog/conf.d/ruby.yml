@@ -9,7 +9,7 @@ logs:
     #   tags: (optional) add tags to each log collected
 
   - type: file
-    path: "/app/log/production.log"
+    path: /app/log/*.log
     service: ruby
     source: ruby
     sourcecategory: sourcecode
