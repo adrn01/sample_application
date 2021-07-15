@@ -9,11 +9,7 @@ logs:
     #   tags: (optional) add tags to each log collected
 
   - type: file
-    path: /log/production.log
-    service: sample_application
+    path: "/sample_application/log/production.log"
+    service: ruby
     source: ruby
-    #For multiline logs, if they start with a timestamp with format yyyy-mm-dd uncomment the below processing rule
-    #log_processing_rules:
-    #   - type: multi_line
-    #     pattern: \d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])
-    #     name: new_log_start_with_date
+    sourcecategory: sourcecode
