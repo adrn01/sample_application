@@ -6,6 +6,9 @@ ruby '2.7.1'
 # We'll use faraday to make API requests to ourself ;-)
 gem 'faraday'
 
+# LogRage for formatting logs for datadog agent
+gem 'lograge'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
 # Use Puma as the app server
