@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
     Rails.logger.info({ message: "service_2 status: #{res.status}" }.as_json)
 
     # return
-    render html: '<p>Request complete</p>', status: :ok
+    render html: 'Request complete', status: :ok
   end
 
   def service_1
